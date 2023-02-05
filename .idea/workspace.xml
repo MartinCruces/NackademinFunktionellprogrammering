@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb2bb28a-8c7a-4183-a099-279a502cf91c" name="Changes" comment="Updated main">
+    <list default="true" id="cb2bb28a-8c7a-4183-a099-279a502cf91c" name="Changes" comment="Updated repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/ShoeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/ShoeStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +150,7 @@
       <updated>1674750898662</updated>
       <workItem from="1674750900025" duration="61495000" />
       <workItem from="1675591360495" duration="544000" />
-      <workItem from="1675592061680" duration="21243000" />
+      <workItem from="1675592061680" duration="22543000" />
     </task>
     <task id="LOCAL−00001" summary="Startup">
       <created>1675174794069</created>
@@ -177,7 +176,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1675607457528</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Updated repository">
+      <created>1675625695928</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1675625695928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +202,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Startup" />
     <MESSAGE value="Updated main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated main" />
+    <MESSAGE value="Updated repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

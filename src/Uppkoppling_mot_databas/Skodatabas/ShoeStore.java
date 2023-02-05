@@ -17,6 +17,7 @@ public class ShoeStore {
 
     private void login(){
 
+
     }
 
     public ShoeStore() throws SQLException, IOException {
@@ -45,11 +46,10 @@ public class ShoeStore {
                 break;
             }
         }
-        String answer = "";
 
         while (true){
             System.out.println("har du ett ordnummer? Y/N");
-            answer = scanner.nextLine().trim().toUpperCase();
+            String answer = scanner.nextLine().trim().toUpperCase();
             if(Choice.N.toString().equals(answer)){
                 orderID = 0;
                 break;
@@ -83,20 +83,13 @@ public class ShoeStore {
             oneShoe = shoe.getOneShoeList(shoeList, articleNr);
             if (oneShoe.isEmpty()) {
                 System.out.println("Fel artikelnummer, försök igen");
-
             } else {
                 productID = shoe.getShoeID(oneShoe);
                 break;
             }
-
         }
-
-        System.out.println(customerID + " " + orderID + " " + productID);
-
-
         repo.addToCart(customerID, orderID, productID);
         shoe.printShoes(oneShoe);
-
     }
 
 
