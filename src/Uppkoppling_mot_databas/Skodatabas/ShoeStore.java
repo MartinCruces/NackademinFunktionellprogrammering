@@ -50,11 +50,11 @@ public class ShoeStore {
         while (true){
             System.out.println("har du ett ordnummer? Y/N");
             answer = scanner.nextLine().trim().toUpperCase();
-            if(answer.equals(Choice.N)){
+            if(Choice.N.toString().equals(answer)){
                 orderID = 0;
                 break;
             }
-            else if ( answer.equals(Choice.Y)) {
+            else if (Choice.Y.toString().equals(answer)) {
                 while (true){
 
                     System.out.println("Skriv in ditt ordernummer"); //TODO kolla mot beställningar
@@ -91,82 +91,11 @@ public class ShoeStore {
 
         }
 
-
-
-
-        /*while (true) {
-
-            System.out.println("har du ett ordnummer? Y/N");
-            String answer = scanner.nextLine().trim().toUpperCase();
-
-            if(answer.equals("Y")){
-                System.out.println("Skriv in ditt ordernummer"); //TODO kolla mot beställningar
-                try {orderID = scanner.nextInt();
-                break;
-                }
-                catch (InputMismatchException e){
-                    System.out.println("Ordernummer består bara av siffror");
-                    continue;
-                }
-            } else if (answer.equals("N")) {
-                orderID = 0;
-                break;
-
-            }
-            else System.out.println("försök igen!");
-
-
-        }*/
-
         System.out.println(customerID + " " + orderID + " " + productID);
 
 
         repo.addToCart(customerID, orderID, productID);
         shoe.printShoes(oneShoe);
-
-        //System.out.println("Kundens ID är: " + customerID);
-
-
-
-
-
-
-        //customerList.stream().filter(customer -> customer.getFirstName().equals(firstName)).filter((customer -> customer.getPassWord().equals(passWord))).forEach(customer -> System.out.println(customer.getId()));
-
-
-
-
-
-
-
-        /*List<Shoe> shoeList = null;
-        try {
-            shoeList = repo.getShoes();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-
-
-        shoeList.forEach(shoe -> System.out.println(shoe.getId() + " " + shoe.getBrand() + " " + shoe.getColor()));
-
-        System.out.println("Skriv in kundID");
-
-        int kundId = scanner.nextInt();
-
-        System.out.println("Skriv in ordernummer");
-
-        int orderNr = scanner.nextInt();
-
-        System.out.println("Skriv in skonummer");
-
-        int skoId = scanner.nextInt();
-
-        repo.addToCart(kundId, orderNr, skoId);
-
-         */
-
 
     }
 
@@ -174,7 +103,7 @@ public class ShoeStore {
     public static void main(String[] args) throws SQLException, IOException {
 
 
-        ShoeStore order =  new ShoeStore();
+        ShoeStore orderMaker =  new ShoeStore();
 
 
 

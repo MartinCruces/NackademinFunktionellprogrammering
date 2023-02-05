@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb2bb28a-8c7a-4183-a099-279a502cf91c" name="Changes" comment="Startup">
-      <change afterPath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/ShoeStore.java" afterDir="false" />
+    <list default="true" id="cb2bb28a-8c7a-4183-a099-279a502cf91c" name="Changes" comment="Updated main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/ConnectToShoeDataBase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/Shoe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/Shoe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Tomtedatabas/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Tomtedatabas/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/ShoeStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Uppkoppling_mot_databas/Skodatabas/ShoeStore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +151,7 @@
       <updated>1674750898662</updated>
       <workItem from="1674750900025" duration="61495000" />
       <workItem from="1675591360495" duration="544000" />
-      <workItem from="1675592061680" duration="14348000" />
+      <workItem from="1675592061680" duration="21243000" />
     </task>
     <task id="LOCAL−00001" summary="Startup">
       <created>1675174794069</created>
@@ -169,7 +165,19 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1675175038906</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Updated main">
+      <created>1675607418262</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1675607418262</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Updated main">
+      <created>1675607457528</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1675607457528</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +196,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Startup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Startup" />
+    <MESSAGE value="Updated main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

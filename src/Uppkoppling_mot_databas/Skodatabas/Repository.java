@@ -8,7 +8,14 @@ import java.util.Properties;
 
 public class Repository {
 
-    private Properties login = new Properties();
+    private final Properties login = new Properties();
+
+    final Connection getConnection () throws SQLException {
+            Connection connection =  DriverManager.getConnection(login.getProperty("connectionString"),
+                       login.getProperty("loginName"),
+                       login.getProperty("password"));
+        return connection;
+    }
 
     public Repository() {
         try {
@@ -22,35 +29,22 @@ public class Repository {
 
     List<Shoe> getShoes() throws SQLException {
 
-        try (
-            Connection c = DriverManager.getConnection(
-            login.getProperty("connectionString"),
-            login.getProperty("loginName"),
-            login.getProperty("password"));
-            Statement statement = c.createStatement();
+        try (Connection connect= getConnection();
+            Statement statement = connect.createStatement();
             ResultSet rs = statement.executeQuery("select id, artikelnr , märke, färg, storlek, pris, lagersaldo from sko")){
 
             List<Shoe> shoes = new ArrayList<>();
 
                 while(rs.next()) {
-
-                Shoe temp = new Shoe();
-                int id = rs.getInt("id");
-                temp.setId(id);
-                String articleNr = rs.getString("artikelnr");
-                temp.setArticleNr(articleNr);
-                String brand = rs.getString("märke");
-                temp.setBrand(brand);
-                String color = rs.getString("färg");
-                temp.setColor(color);
-                String size = rs.getString("storlek");
-                temp.setSize(size);
-                int price = rs.getInt("pris");
-                temp.setPrice(price);
-                int inventory = rs.getInt("lagersaldo");
-                temp.setInventory(inventory);
-
-                shoes.add(temp);
+                    int id = rs.getInt("id");
+                    String articleNr = rs.getString("artikelnr");
+                    String brand = rs.getString("märke");
+                    String color = rs.getString("färg");
+                    String size = rs.getString("storlek");
+                    int price = rs.getInt("pris");
+                    int inventory = rs.getInt("lagersaldo");
+                    Shoe temp = new Shoe(id, articleNr, brand, color, size, price, inventory);
+                    shoes.add(temp);
                 }
                 return shoes;
         }
@@ -58,12 +52,8 @@ public class Repository {
 
     List<Customer> getCustomer() throws  SQLException {
 
-        try (
-                Connection c = DriverManager.getConnection(
-                        login.getProperty("connectionString"),
-                        login.getProperty("loginName"),
-                        login.getProperty("password"));
-                Statement statement = c.createStatement();
+        try (Connection connect= getConnection();
+                Statement statement = connect.createStatement();
                 ResultSet rs = statement.executeQuery("select id, förnamn, lösenord from kund")){
 
             List<Customer> Customers = new ArrayList<>();
@@ -86,20 +76,17 @@ public class Repository {
 
     public void addToCart(int customerId, int newOrderId, int productId){
 
-        try (Connection c = DriverManager.getConnection(
-                login.getProperty("connectionString"),
-                login.getProperty("loginName"),
-                login.getProperty("password"));
-             CallableStatement statement = c.prepareCall("call AddToCart(?,?,?)")) {
+        try (Connection connect= getConnection();
+             CallableStatement statement = connect.prepareCall("call AddToCart(?,?,?)")) {
 
             statement.setInt(1, customerId);
             statement.setInt(2,newOrderId);
             statement.setInt(3, productId);
             statement.executeQuery();
-            System.out.println("Order inlagd");
+            System.out.println("Följande beställning inlagd: ");
 
         } catch (SQLException e) {
-            System.out.println("Beställningen gick inte att lägga in");
+            System.out.println("Följande beställningen gick inte att lägga in:");
         }
     }
 }
