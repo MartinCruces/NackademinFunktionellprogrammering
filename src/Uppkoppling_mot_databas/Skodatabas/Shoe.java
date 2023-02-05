@@ -1,18 +1,24 @@
 package Uppkoppling_mot_databas.Skodatabas;
 
+import java.util.List;
+
 public class Shoe {
 
-    protected int id;
-    protected String brand;
-    protected String color;
-    protected String size;
-    protected int price;
-    protected int inventory;
+    private int id;
+    private String articleNr;
+    private String brand;
+    private String color;
+    private String size;
+    private int price;
+    private int inventory;
 
     public Shoe(){}
 
-    public Shoe(int id, String brand, String color, String size, int price, int inventory) {
+
+
+    public Shoe(int id, String articleNr, String brand, String color, String size, int price, int inventory) {
         this.id = id;
+        this.articleNr = articleNr;
         this.brand = brand;
         this.color = color;
         this.size = size;
@@ -27,6 +33,10 @@ public class Shoe {
     public void setId(int id) {
         this.id = id;
     }
+
+    public String getArticleNr() {return articleNr;}
+
+    public void setArticleNr(String articleNr) {this.articleNr = articleNr;}
 
     public String getBrand() {
         return brand;
@@ -66,5 +76,17 @@ public class Shoe {
 
     public void setInventory(int inventory) {
         this.inventory = inventory;
+    }
+
+    public void printShoes(List<Shoe> list){
+        list.forEach(shoe -> System.out.println("Artikelnr:" + shoe.articleNr + " Märke:" +
+                shoe.getBrand() + " Färg:" + shoe.getColor() + " Storlek:" + shoe.getSize() + " pris:" + shoe.getPrice()));
+    }
+    public List<Shoe> getOneShoeList(List<Shoe> shoeList, String articleNr){
+
+        return shoeList.stream().filter(shoe -> shoe.getArticleNr().equalsIgnoreCase(articleNr)).toList();
+    }
+    public int getShoeID(List<Shoe> list){
+        return list.stream().mapToInt(shoe -> shoe.getId()).findAny().getAsInt();
     }
 }

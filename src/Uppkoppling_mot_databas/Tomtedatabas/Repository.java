@@ -11,7 +11,7 @@ import java.util.Properties;
 
 public class Repository {
     private Properties login = new Properties();
-    private Connection connection;
+
 
     public Repository() {
         try {
