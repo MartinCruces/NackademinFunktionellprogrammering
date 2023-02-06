@@ -54,7 +54,7 @@ public class Repository {
 
         try (Connection connect= getConnection();
                 Statement statement = connect.createStatement();
-                ResultSet rs = statement.executeQuery("select id, förnamn, lösenord from kund")){
+                ResultSet rs = statement.executeQuery("select id, förnamn, efternamn, lösenord from kund")){
 
             List<Customer> Customers = new ArrayList<>();
 
@@ -65,6 +65,8 @@ public class Repository {
                 customer.setId(id);
                 String firstName = rs.getString("förnamn");
                 customer.setFirstName(firstName);
+                String lastName = rs.getString("efternamn");
+                customer.setLastName(lastName);
                 String passWord = rs.getString("lösenord");
                 customer.setPassWord(passWord);
                 Customers.add(customer);

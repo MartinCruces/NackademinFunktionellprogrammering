@@ -1,6 +1,7 @@
 package Uppkoppling_mot_databas.Skodatabas;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class Shoe {
 
@@ -76,6 +77,23 @@ public class Shoe {
 
     public void setInventory(int inventory) {
         this.inventory = inventory;
+    }
+
+    public List<Shoe> getCustomerChooseOrder(List<Shoe> shoeList){
+        while(true){
+            List<Shoe> oneShoe;
+            int productID;
+            System.out.println("Ange artikelnummer för beställning: ");
+            Scanner scanner = new Scanner(System.in);
+            String articleNr = scanner.nextLine().trim().toUpperCase();
+            oneShoe = getOneShoeList(shoeList, articleNr);
+            if (oneShoe.isEmpty()) {
+                System.out.println("Fel artikelnummer, försök igen");
+            } else {
+
+                return oneShoe;
+            }
+        }
     }
 
     public void printShoes(List<Shoe> list){

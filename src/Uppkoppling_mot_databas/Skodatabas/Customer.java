@@ -1,6 +1,7 @@
 package Uppkoppling_mot_databas.Skodatabas;
 
 import java.util.List;
+import java.util.Scanner;
 
 public class Customer {
 
@@ -88,5 +89,27 @@ public class Customer {
     }
     public int getCustomerID(List<Customer> list){
         return list.stream().mapToInt(customer -> customer.getId()).findAny().getAsInt();
+    }
+    public void printOneCustomer(List<Customer> list, int customerID){
+        list.stream().filter(customer -> customer.getId()== customerID).forEach(customer -> System.out.println(
+                customer.getFirstName() + " " + customer.getLastName()));
+    }
+    public int getCustomerLoginId(List<Customer> customerList){
+
+        while(true) {
+            System.out.println("För att logga in skriv ditt förnamn:");
+            Scanner scanner = new Scanner(System.in);
+            String firstName = scanner.nextLine().trim();
+            System.out.println("Skriv in ditt lösenord");
+            String passWord = scanner.nextLine().trim();
+            List<Customer> temp = confirmCustomer(customerList, firstName, passWord);
+            if (temp.isEmpty()) {
+                System.out.println("Namn eller lösenord är fel");
+            } else {
+                int customerID = getCustomerID(temp);
+                return customerID;
+            }
+        }
+
     }
 }
