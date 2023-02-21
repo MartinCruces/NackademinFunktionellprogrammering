@@ -39,7 +39,6 @@ fun part2HowManyCorrectPasswords(passwordList :List<String>) : Int{
         var max = minMax[1].toInt()
         var pointerChar = part[1].first()
         var password = part[2]
-        var charCheck = 0
 
         if (password[min-1] == pointerChar && password[max-1] != pointerChar) counter++
         else if (password[max-1] == pointerChar && password[min-1] != pointerChar) counter++

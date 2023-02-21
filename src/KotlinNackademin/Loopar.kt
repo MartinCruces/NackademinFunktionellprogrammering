@@ -10,7 +10,7 @@ fun printMultiplicationTable(table : Int, start : Int, stop : Int) {
 }
 
 fun isThisAPrime(testNumber:Int) : Boolean{
-    if (testNumber == 1 || testNumber == 2) return false
+    if (testNumber == 1) return false
 
     for (x in 2..testNumber/2){
         if (testNumber % 2 == 0) return false
@@ -23,7 +23,7 @@ fun main(){
 
     //printMultiplicationTable(3,0,10)
 
-    println(isThisAPrime(7))
+    println(isThisAPrime(5))
 
 
 }
