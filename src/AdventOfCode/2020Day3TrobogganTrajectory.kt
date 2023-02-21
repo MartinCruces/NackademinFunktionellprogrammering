@@ -1,0 +1,3 @@
+package AdventOfCode
+
+fun checkTrees(){}
