@@ -35,20 +35,20 @@ fun part2HowManyCorrectPasswords(passwordList :List<String>) : Int{
     for (line in passwordList){
         var part = line.split(" ")
         var minMax = part[0].split('-')
-        var min = minMax[0].toInt()
-        var max = minMax[1].toInt()
+        var min = minMax[0].toInt()-1
+        var max = minMax[1].toInt()-1
         var pointerChar = part[1].first()
         var password = part[2]
 
-        if (password[min-1] == pointerChar && password[max-1] != pointerChar) counter++
-        else if (password[max-1] == pointerChar && password[min-1] != pointerChar) counter++
+        if (password[min] == pointerChar && password[max] != pointerChar) counter++
+        else if (password[max] == pointerChar && password[min] != pointerChar) counter++
 
     }
     return counter
 }
 
 fun main(){
-    val filePath = "src/Kotlin_inlämingsuppgifter/passwordList.txt"
+    val filePath = "src/AdventOfCode/passwordList.txt"
 
     val passwordList = readTextFileToList(filePath)
 

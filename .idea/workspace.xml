@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cb2bb28a-8c7a-4183-a099-279a502cf91c" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2020Day1Reportrepair.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2020Day1Reportrepair.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2020Day2Password_Philosophy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2020Day2Password_Philosophy.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,16 +83,25 @@
       <recent name="Uppkoppling_mot_databas.Tomtedatabas" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LooparKt">
-    <configuration name="GissaTaletKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KotlinNackademin.GissaTaletKt" />
+  <component name="RunManager" selected="Kotlin._2020Day2Password_PhilosophyKt">
+    <configuration name="RekursionKtTest.getInterestOnInterest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Funktionell _programmering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="KotlinNackademin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="KotlinNackademin" />
+      <option name="MAIN_CLASS_NAME" value="KotlinNackademin.RekursionKtTest" />
+      <option name="METHOD_NAME" value="getInterestOnInterest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LooparKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KotlinNackademin.LooparKt" />
+    <configuration name="_2015Day1NotQuitLispKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2015Day1NotQuitLispKt" />
       <module name="Funktionell _programmering" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.LooparKt" />
-        <item itemvalue="Kotlin._2019Day1TheTyrannyOfRocketEquationKt" />
         <item itemvalue="Kotlin._2020Day2Password_PhilosophyKt" />
         <item itemvalue="Kotlin._2020Day1ReportrepairKt" />
-        <item itemvalue="Kotlin.GissaTaletKt" />
+        <item itemvalue="Kotlin._2015Day1NotQuitLispKt" />
+        <item itemvalue="Kotlin._2019Day1TheTyrannyOfRocketEquationKt" />
+        <item itemvalue="JUnit.RekursionKtTest.getInterestOnInterest" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +154,10 @@
       <workItem from="1676616658941" duration="11622000" />
       <workItem from="1676733773691" duration="1232000" />
       <workItem from="1676883002523" duration="16021000" />
-      <workItem from="1676972705657" duration="23808000" />
+      <workItem from="1676972705657" duration="27017000" />
+      <workItem from="1677074507008" duration="2044000" />
+      <workItem from="1677158001058" duration="11685000" />
+      <workItem from="1677178571157" duration="2927000" />
     </task>
     <task id="LOCAL−00001" summary="Startup">
       <created>1675174794069</created>
@@ -193,7 +207,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1677003433880</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="Update">
+      <created>1677005041235</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1677005041235</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
