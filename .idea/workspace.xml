@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb2bb28a-8c7a-4183-a099-279a502cf91c" name="Changes" comment="Update">
+    <list default="true" id="cb2bb28a-8c7a-4183-a099-279a502cf91c" name="Changes" comment="refactoring">
+      <change afterPath="$PROJECT_DIR$/Test/AdventOfCode/_2019Day1TheTyrannyOfRocketEquationKtTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Funktionell _programmering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Funktionell _programmering.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2020Day1Reportrepair.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2020Day1Reportrepair.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2020Day2Password_Philosophy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2020Day2Password_Philosophy.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +21,9 @@
         <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -41,30 +41,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/marti/IdeaProjects/Funktionell _programmering/src/Önvningsuppgifter/BasicFlapmap&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/marti/IdeaProjects/Funktionell _programmering/src/Önvningsuppgifter/BasicFlapmap",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\marti\IdeaProjects\Funktionell _programmering\src\Önvningsuppgifter\BasicFlapmap" />
@@ -76,65 +77,98 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="AdventOfCode" />
+      <recent name="Test" />
       <recent name="KotlinNackademin" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Uppkoppling_mot_databas.Tomtedatabas" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._2020Day2Password_PhilosophyKt">
-    <configuration name="RekursionKtTest.getInterestOnInterest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in Funktionell _programmering">
+    <configuration name="All in Funktionell _programmering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Funktionell _programmering" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2019Day1TheTyrannyOfRocketEquationKtTest.calFuelForFuelMass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Funktionell _programmering" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="KotlinNackademin.*" />
+          <option name="PATTERN" value="AdventOfCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="KotlinNackademin" />
-      <option name="MAIN_CLASS_NAME" value="KotlinNackademin.RekursionKtTest" />
-      <option name="METHOD_NAME" value="getInterestOnInterest" />
+      <option name="PACKAGE_NAME" value="AdventOfCode" />
+      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2019Day1TheTyrannyOfRocketEquationKtTest" />
+      <option name="METHOD_NAME" value="calFuelForFuelMass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2015Day1NotQuitLispKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2015Day1NotQuitLispKt" />
+    <configuration name="_2019Day1TheTyrannyOfRocketEquationKtTest.calFuelPart1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Funktionell _programmering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AdventOfCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AdventOfCode" />
+      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2019Day1TheTyrannyOfRocketEquationKtTest" />
+      <option name="METHOD_NAME" value="calFuelPart1Test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2019Day1TheTyrannyOfRocketEquationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2019Day1TheTyrannyOfRocketEquationKt" />
+    <configuration name="_2019Day1TheTyrannyOfRocketEquationKtTest.calFuelPart2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Funktionell _programmering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AdventOfCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AdventOfCode" />
+      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2019Day1TheTyrannyOfRocketEquationKtTest" />
+      <option name="METHOD_NAME" value="calFuelPart2Test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2020Day1ReportrepairKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2020Day1ReportrepairKt" />
+    <configuration name="_2019Day1TheTyrannyOfRocketEquationKtTest.fuel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Funktionell _programmering" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_2020Day2Password_PhilosophyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2020Day2Password_PhilosophyKt" />
-      <module name="Funktionell _programmering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AdventOfCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AdventOfCode" />
+      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2019Day1TheTyrannyOfRocketEquationKtTest" />
+      <option name="METHOD_NAME" value="fuel(int)" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._2020Day2Password_PhilosophyKt" />
-        <item itemvalue="Kotlin._2020Day1ReportrepairKt" />
-        <item itemvalue="Kotlin._2015Day1NotQuitLispKt" />
-        <item itemvalue="Kotlin._2019Day1TheTyrannyOfRocketEquationKt" />
-        <item itemvalue="JUnit.RekursionKtTest.getInterestOnInterest" />
+        <item itemvalue="JUnit.All in Funktionell _programmering" />
+        <item itemvalue="JUnit._2019Day1TheTyrannyOfRocketEquationKtTest.calFuelForFuelMass" />
+        <item itemvalue="JUnit._2019Day1TheTyrannyOfRocketEquationKtTest.calFuelPart2Test" />
+        <item itemvalue="JUnit._2019Day1TheTyrannyOfRocketEquationKtTest.calFuelPart1Test" />
+        <item itemvalue="JUnit._2019Day1TheTyrannyOfRocketEquationKtTest.fuel" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +191,8 @@
       <workItem from="1676972705657" duration="27017000" />
       <workItem from="1677074507008" duration="2044000" />
       <workItem from="1677158001058" duration="11685000" />
-      <workItem from="1677178571157" duration="2927000" />
+      <workItem from="1677178571157" duration="3230000" />
+      <workItem from="1677221193616" duration="3980000" />
     </task>
     <task id="LOCAL−00001" summary="Startup">
       <created>1675174794069</created>
@@ -213,7 +248,13 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1677005041235</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="refactoring">
+      <created>1677181813500</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1677181813500</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +277,8 @@
     <MESSAGE value="Updated repository" />
     <MESSAGE value="Updated ShowStore" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
