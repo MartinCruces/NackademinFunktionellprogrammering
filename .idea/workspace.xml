@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="cb2bb28a-8c7a-4183-a099-279a502cf91c" name="Changes" comment="refactoring">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2015Day1NotQuitLisp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2015Day1NotQuitLisp.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2020Day1Reportrepair.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2020Day1Reportrepair.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2020Day2Password_Philosophy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2020Day2Password_Philosophy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2020Day3TrobogganTrajectory.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <recent name="Uppkoppling_mot_databas.Tomtedatabas" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._2020Day1ReportrepairKt">
+  <component name="RunManager" selected="Kotlin._2020Day2Password_PhilosophyKt">
     <configuration name="All in Funktionell _programmering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Funktionell _programmering" />
       <option name="PACKAGE_NAME" value="" />
@@ -98,34 +97,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2019Day1TheTyrannyOfRocketEquationKtTest.calFuelForFuelMass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_2015Day1NotQuitLispKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2015Day1NotQuitLispKt" />
       <module name="Funktionell _programmering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AdventOfCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AdventOfCode" />
-      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2019Day1TheTyrannyOfRocketEquationKtTest" />
-      <option name="METHOD_NAME" value="calFuelForFuelMass" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_2019Day1TheTyrannyOfRocketEquationKtTest.calFuelPart2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Funktionell _programmering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AdventOfCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AdventOfCode" />
-      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2019Day1TheTyrannyOfRocketEquationKtTest" />
-      <option name="METHOD_NAME" value="calFuelPart2Test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,13 +118,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_2020Day2Password_PhilosophyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2020Day2Password_PhilosophyKt" />
+      <module name="Funktionell _programmering" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._2020Day2Password_PhilosophyKt" />
         <item itemvalue="Kotlin._2020Day1ReportrepairKt" />
         <item itemvalue="Kotlin._2019Day1TheTyrannyOfRocketEquationKt" />
+        <item itemvalue="Kotlin._2015Day1NotQuitLispKt" />
         <item itemvalue="JUnit.All in Funktionell _programmering" />
-        <item itemvalue="JUnit._2019Day1TheTyrannyOfRocketEquationKtTest.calFuelForFuelMass" />
-        <item itemvalue="JUnit._2019Day1TheTyrannyOfRocketEquationKtTest.calFuelPart2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +155,7 @@
       <workItem from="1677074507008" duration="2044000" />
       <workItem from="1677158001058" duration="11685000" />
       <workItem from="1677178571157" duration="3230000" />
-      <workItem from="1677221193616" duration="9856000" />
+      <workItem from="1677221193616" duration="10680000" />
     </task>
     <task id="LOCAL−00001" summary="Startup">
       <created>1675174794069</created>
@@ -248,7 +229,13 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1677225810239</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="refactoring">
+      <created>1677231444118</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1677231444118</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

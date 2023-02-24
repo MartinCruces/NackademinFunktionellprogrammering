@@ -5,6 +5,8 @@ import java.io.File
 fun readTextFileToList(fileName: String): List<String>
         = File(fileName).bufferedReader().readLines()
 
+
+//Loopar igenom listan, splittar upp den i delar efter space/mellanrum. Första delen ger range min/max på hur många gånger en char får/måste finnas i lösenord.
 fun part1HowManyCorrectPasswords(passwordList :List<String>) : Int{
     var counter = 0
     for (line in passwordList){
