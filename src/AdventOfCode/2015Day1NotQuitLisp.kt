@@ -3,7 +3,7 @@ package AdventOfCode
 import java.io.File
 
 private fun readFileToList(fileName: String): String
-        = File(fileName).bufferedReader().readLines().toString()
+        = File(fileName).readLines().toString()
 
 //loopar igenom en string, har två variabler som ökar vid steg upp och steg ned för att sedan returnera våningen
 fun countStairsPart1(step : String) :Int{
