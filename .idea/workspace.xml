@@ -86,7 +86,7 @@
       <recent name="Uppkoppling_mot_databas.Tomtedatabas" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._2015Day1NotQuitLispKt">
+  <component name="RunManager" selected="Kotlin._2020Day2Password_PhilosophyKt">
     <configuration name="All in Funktionell _programmering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Funktionell _programmering" />
       <option name="PACKAGE_NAME" value="" />
@@ -125,10 +125,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._2020Day2Password_PhilosophyKt" />
         <item itemvalue="Kotlin._2015Day1NotQuitLispKt" />
         <item itemvalue="Kotlin._2020Day1ReportrepairKt" />
         <item itemvalue="Kotlin._2019Day1TheTyrannyOfRocketEquationKt" />
-        <item itemvalue="Kotlin._2020Day2Password_PhilosophyKt" />
         <item itemvalue="JUnit.All in Funktionell _programmering" />
       </list>
     </recent_temporary>
