@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb2bb28a-8c7a-4183-a099-279a502cf91c" name="Changes" comment="refactoring">
-      <change afterPath="$PROJECT_DIR$/Test/AdventOfCode/_2019Day1TheTyrannyOfRocketEquationKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Funktionell _programmering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Funktionell _programmering.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +86,7 @@
       <recent name="Uppkoppling_mot_databas.Tomtedatabas" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Funktionell _programmering">
+  <component name="RunManager" selected="Kotlin._2019Day1TheTyrannyOfRocketEquationKt">
     <configuration name="All in Funktionell _programmering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Funktionell _programmering" />
       <option name="PACKAGE_NAME" value="" />
@@ -146,29 +143,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2019Day1TheTyrannyOfRocketEquationKtTest.fuel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_2019Day1TheTyrannyOfRocketEquationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2019Day1TheTyrannyOfRocketEquationKt" />
       <module name="Funktionell _programmering" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AdventOfCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AdventOfCode" />
-      <option name="MAIN_CLASS_NAME" value="AdventOfCode._2019Day1TheTyrannyOfRocketEquationKtTest" />
-      <option name="METHOD_NAME" value="fuel(int)" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._2019Day1TheTyrannyOfRocketEquationKt" />
         <item itemvalue="JUnit.All in Funktionell _programmering" />
         <item itemvalue="JUnit._2019Day1TheTyrannyOfRocketEquationKtTest.calFuelForFuelMass" />
         <item itemvalue="JUnit._2019Day1TheTyrannyOfRocketEquationKtTest.calFuelPart2Test" />
         <item itemvalue="JUnit._2019Day1TheTyrannyOfRocketEquationKtTest.calFuelPart1Test" />
-        <item itemvalue="JUnit._2019Day1TheTyrannyOfRocketEquationKtTest.fuel" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +180,7 @@
       <workItem from="1677074507008" duration="2044000" />
       <workItem from="1677158001058" duration="11685000" />
       <workItem from="1677178571157" duration="3230000" />
-      <workItem from="1677221193616" duration="3980000" />
+      <workItem from="1677221193616" duration="4342000" />
     </task>
     <task id="LOCAL−00001" summary="Startup">
       <created>1675174794069</created>
@@ -254,7 +242,13 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1677181813500</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="refactoring">
+      <created>1677225332314</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1677225332314</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
