@@ -5,7 +5,8 @@ import java.io.File
 
 const val pathFile = "src/AdventOfCode/massList.txt"
 
-/* bränsle för moduler beräknad på dess massa (mass/3 -2) */
+/* bränsle för moduler beräknad på dess massa (mass/3 -2) del 1
+   bänsle för muduler plus för bränslet själv del 2*/
 
 
 //Läser in textfil med massan för alla moduler och mappar till en lista av int.
@@ -31,7 +32,7 @@ private fun readTextFileToIntList(fileName: String): List<Int>
     return fuel
 }
 
-//rekursiv funktion som tar in massan och beräknar förts bränslet för massan och sedan för varje varv bränsle för bränslet så länge bränslet är lika eller mindre än noll, då returnerar den totalsumman.
+//funktion med rekursion som tar in massan och beräknar förts bränslet för massan och sedan för varje varv bränsle för bränslet så länge bränslet är lika eller mindre än noll, då returnerar den totalsumman.
 fun calFuelForFuelMass(mass: Int): Int {
     var fuel = mass/3 -2
     return if (fuel <= 0) 0
@@ -40,7 +41,7 @@ fun calFuelForFuelMass(mass: Int): Int {
 }
 fun Int.fuel() :Int = this/3 - 2 //Använder en extention funktion för att beräkna bränslet
 
-fun Int.fuelForFuelMass(): Int =   //En rekursiv extention function. Mycket smidigare (Ginsberg)
+fun Int.fuelForFuelMass(): Int =   // rekursion extention function. Mycket smidigare (Ginsberg)
     if(this < 9)  {
         0
     } else {
