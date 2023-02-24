@@ -30,7 +30,6 @@ fun find3SumNumbersTo2020AndMultiplyThem(list: List<Int>): Int {
     return -1
 }
 
-
 fun main(){
     val pathWay = "src/AdventOfCode/expenceReport.txt"
     val reportNumbers = readTextFileToIntList(pathWay)
