@@ -32,7 +32,7 @@ fun countStairsPart2(step : String) : Int{
 
 }
 
-//En mycket smidigare sätt att räkna stegen funktionellt.
+//En mycket smidigare sätt att räkna stegen funktionellt i första delen. Lyckades inte hitta någon smart lösning för del två
 fun stairs1(stairs: String) : Int{
    return stairs.count{ it == '(' } - stairs.count{ it == ')' }
 }

@@ -2,7 +2,6 @@ package AdventOfCode
 
 import java.io.File
 
-class day012019(){}
 
 const val pathFile = "src/AdventOfCode/massList.txt"
 
@@ -49,8 +48,6 @@ fun Int.fuelForFuelMass(): Int =   //En rekursiv extended function. Mycket smidi
 
 
 fun main(){
-
-
 
     println(readTextFileToIntList(pathFile).sumOf { it.fuel() }) //Beräknar bränslet för alla värden i listan på ett mycket smidigare sätt och anropar extention funktion fuel
     println(readTextFileToIntList(pathFile).sumOf { it.fuelForFuelMass() }) //Beräknar även bränsle för bränslets massa med den rekursiva extention funktionen.
