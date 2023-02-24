@@ -11,7 +11,7 @@ const val pathFile = "src/AdventOfCode/massList.txt"
 
 //Läser in textfil med massan för alla moduler och mappar till en lista av int.
 private fun readTextFileToIntList(fileName: String): List<Int>
-        = File(fileName).bufferedReader().readLines().map { it.toInt() }
+        = File(fileName).readLines().map { it.toInt() }
 
 //Funktion som tar in en lista av int och loopar igenom varje rad och räknar ut hur mycket bränsle som behövs. Returnerar totalen.
  fun calFuelPart1(massList :List<Int>) : Int {

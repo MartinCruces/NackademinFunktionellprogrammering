@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb2bb28a-8c7a-4183-a099-279a502cf91c" name="Changes" comment="refactoring">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +154,7 @@
       <workItem from="1677074507008" duration="2044000" />
       <workItem from="1677158001058" duration="11685000" />
       <workItem from="1677178571157" duration="3230000" />
-      <workItem from="1677221193616" duration="11397000" />
+      <workItem from="1677221193616" duration="12394000" />
     </task>
     <task id="LOCAL−00001" summary="Startup">
       <created>1675174794069</created>
@@ -239,7 +240,19 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1677231995055</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="refactoring">
+      <created>1677232731531</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1677232731531</updated>
+    </task>
+    <task id="LOCAL−00016" summary="refactoring">
+      <created>1677233586194</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1677233586194</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
