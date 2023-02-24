@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb2bb28a-8c7a-4183-a099-279a502cf91c" name="Changes" comment="refactoring">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2020Day2Password_Philosophy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2020Day2Password_Philosophy.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2020Day3TrobogganTrajectory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdventOfCode/2019Day1TheTyrannyOfRocketEquation.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <recent name="Uppkoppling_mot_databas.Tomtedatabas" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._2020Day2Password_PhilosophyKt">
+  <component name="RunManager" selected="Kotlin._2019Day1TheTyrannyOfRocketEquationKt">
     <configuration name="All in Funktionell _programmering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Funktionell _programmering" />
       <option name="PACKAGE_NAME" value="" />
@@ -127,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._2019Day1TheTyrannyOfRocketEquationKt" />
         <item itemvalue="Kotlin._2020Day2Password_PhilosophyKt" />
         <item itemvalue="Kotlin._2020Day1ReportrepairKt" />
-        <item itemvalue="Kotlin._2019Day1TheTyrannyOfRocketEquationKt" />
         <item itemvalue="Kotlin._2015Day1NotQuitLispKt" />
         <item itemvalue="JUnit.All in Funktionell _programmering" />
       </list>
@@ -155,7 +153,7 @@
       <workItem from="1677074507008" duration="2044000" />
       <workItem from="1677158001058" duration="11685000" />
       <workItem from="1677178571157" duration="3230000" />
-      <workItem from="1677221193616" duration="10680000" />
+      <workItem from="1677221193616" duration="11397000" />
     </task>
     <task id="LOCAL−00001" summary="Startup">
       <created>1675174794069</created>
@@ -235,7 +233,13 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1677231444118</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="refactoring">
+      <created>1677231995055</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1677231995055</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
